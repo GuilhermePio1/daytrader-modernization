@@ -42,7 +42,7 @@ at `v2.0.0`.)
 
 | Phase | Description | Spec | Status | Exit tag |
 |---|---|---|---|---|
-| 0 | Repository setup | [00-setup](docs/specs/00-setup.md) | 🟡 In progress | `v0-legacy` |
+| 0 | Repository setup | [00-setup](docs/specs/00-setup.md) | 🟢 Done | `v0-legacy` |
 | A | Legacy build on Liberty, characterization suite, baseline load test, CI | [A-baseline](docs/specs/A-baseline.md) | ⚪ Planned | `a-safety-net` |
 | B | Trim on Liberty: remove benchmark primitives, JSF UI, Direct JDBC mode | [B-trim](docs/specs/B-trim.md) | ⚪ Planned | `b-trimmed` |
 | C | Re-platform the core to Spring Boot 4.1 / Java 25, JMS kept (embedded Artemis) | [C-boot-core](docs/specs/C-boot-core.md) | ⚪ Planned | `c-boot` |

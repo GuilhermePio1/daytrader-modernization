@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| Status | In progress |
+| Status | Done |
 | Branch | `docs/modernization-plan`, then `phase/0-setup` |
 | JDK | n/a |
 | Depends on | – |
@@ -46,11 +46,11 @@ as a diff against real legacy code. Put the planning artifacts (specs, ADRs, cat
 
 ## Acceptance criteria
 
-- [ ] `git log v0-legacy` on the new repository matches the upstream history exactly.
-- [ ] README shows the status table with the v2.0.0 line and credits IBM and the Apache Geronimo project.
-- [ ] `LICENSE` and the upstream `NOTICE` files are untouched.
-- [ ] Every relative link in README, specs and ADRs resolves.
-- [ ] The default branch is protected.
+- [x] `git log v0-legacy` on the new repository matches the upstream history exactly.
+- [x] README shows the status table with the v2.0.0 line and credits IBM and the Apache Geronimo project.
+- [x] `LICENSE` and the upstream `NOTICE` files are untouched.
+- [x] Every relative link in README, specs and ADRs resolves.
+- [x] The default branch is protected.
 
 ## Risks
 
